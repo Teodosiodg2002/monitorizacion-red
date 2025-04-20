@@ -88,9 +88,6 @@ sudo ./scripts/configurar_alertas.sh
 ### 🎛️ Panel de Grafana
 ![Panel Grafana](screenshots/Dashboard.png)
 
-### 📡 Prometheus funcionando
-![Prometheus](docs/prometheus_metrics.png)
-
 
 ## 💡 Mejoras futuras
 
