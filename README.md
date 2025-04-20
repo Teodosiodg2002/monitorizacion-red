@@ -44,7 +44,7 @@ Ventajas respecto a otras soluciones:
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/tuusuario/monitorizacion-red.git
+git clone https://github.com/Teodosiodg2002/monitorizacion-red.git
 cd monitorizacion-red
 
 # 2. Da permisos a los scripts
