@@ -61,9 +61,17 @@ sudo ./scripts/instalar_grafana.sh
 
 # 6. Configura alertas
 sudo ./scripts/configurar_alertas.sh
-
+```
 
 ## 📈 Visualización
+
+Accede a las herramientas de monitorización a través de las siguientes URLs:
+
+- Prometheus → [http://localhost:9090](http://localhost:9090)
+- Node Exporter → [http://localhost:9100](http://localhost:9100)
+- Grafana → [http://localhost:3000](http://localhost:3000) (usuario/contraseña: admin/admin)
+
+🔄 Importa el dashboard desde `dashboards/node_exporter_dashboard.json`.
 
 - Prometheus → http://localhost:9090
 - Node Exporter → http://localhost:9100
@@ -86,10 +94,7 @@ sudo ./scripts/configurar_alertas.sh
 ## 📸 Capturas
 
 ### 🎛️ Panel de Grafana
-![Panel Grafana](docs/grafana_dashboard.png)
-
-### 📡 Prometheus funcionando
-![Prometheus](docs/prometheus_metrics.png)
+![Panel Grafana](screenshots/Dashboard.png)
 
 
 ## 💡 Mejoras futuras
