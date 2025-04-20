@@ -71,15 +71,6 @@ Accede a las herramientas de monitorización a través de las siguientes URLs:
 - Node Exporter → [http://localhost:9100](http://localhost:9100)
 - Grafana → [http://localhost:3000](http://localhost:3000) (usuario/contraseña: admin/admin)
 
-🔄 Importa el dashboard desde `dashboards/node_exporter_dashboard.json`.
-
-- Prometheus → http://localhost:9090
-- Node Exporter → http://localhost:9100
-- Grafana → http://localhost:3000 (usuario/contraseña: admin/admin)
-
-🔄 Importa el dashboard desde `dashboards/node_exporter_dashboard.json`.
-
-
 ## 📢 Alertas incluidas
 
 | Nombre            | Condición                    | Acción esperada |
@@ -88,7 +79,7 @@ Accede a las herramientas de monitorización a través de las siguientes URLs:
 | Low Disk Space    | Espacio libre < 10%           | Notificación     |
 | Node Down         | Sin métricas en 5 minutos     | Alerta crítica   |
 
-📁 Configuradas en `alertas/alertas_basicas.yml`
+📁 Configuradas en `config/alert.rules.yml`
 
 
 ## 📸 Capturas
